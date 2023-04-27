@@ -1,0 +1,114 @@
+.containerofcontainers {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.container {
+    position: relative;
+    top: 5%;
+    left: 25%;
+    width: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: rotate(45deg);
+}
+
+.pan1 {
+    position: relative;
+    background-color: rgb(209, 131, 80);
+    width: 500px;
+    height: 80px;
+    border-radius: 200px 200px 10px 10px / 100px 100px 10px 10px;
+    z-index: 2;
+    border-bottom: 10px solid rgba(153, 64, 13, 0.288);
+}
+.pan2 {
+    position: relative;
+    background-color: rgb(185, 102, 63);
+    width: 500px;
+    height: 100px;
+    border-top: 10px solid rgb(185, 102, 63);
+    margin-top: -10px;
+    z-index: 1;
+    border-bottom: 10px solid rgb(185, 102, 63);
+    margin-bottom: -10px;
+}
+.salchicha {
+    position: relative;
+    left: -50px;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(138, 30, 30);
+    border-radius: 100px 100px 100px 100px;
+    z-index: 2;
+}
+.mostazabloque {
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+.mostaza {
+    position:absolute;
+    width: 400px;
+    height: 20px;
+    background-color: rgb(226, 213, 25);
+    border-radius: 100px 100px 100px 100px;
+    z-index: 4;
+}
+.pan3 {
+    position: relative;
+    border-top: 10px solid rgba(153, 64, 13, 0.288);
+    background-color: rgb(209, 131, 80);
+    width: 500px;
+    height: 80px;
+    border-radius: 10px 10px 200px 200px / 10px 10px 100px 100px;
+    z-index: 2;
+}
+.grilledbloque {
+    position: relative;
+    top: 8px;
+    left: -13px;
+}
+.grilledinner {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.grilled {
+    position:relative;
+    margin-right: 20px;
+    height: 85px;
+    width: 30px;
+    background-color: rgb(100, 31, 31);
+    border-radius: 15px;
+    transform: rotate(20deg);
+    z-index: 3;
+}
+
+.grillercontainer {
+    border: 10px solid rgb(36, 36, 36);
+    width: 700px;
+    height: 700px;
+    left: 0%;
+    top: 0%;
+    border-radius: 50%;
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+.grillerline {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    width: 30px;
+    height: 800px;
+    z-index: 2;
+    margin-left: 31px;
+}
